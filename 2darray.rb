@@ -17,6 +17,7 @@ team.length
 puts ""
 
 puts "*** 削除 ***"
+team.delete_at(3)
 team[2].delete_at(1)
 p team
 team.length
